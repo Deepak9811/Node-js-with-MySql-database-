@@ -1,0 +1,29 @@
+{
+  "name": "dk",
+  "version": "1.0.0",
+  "description": "Its an amazing packing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "author": "Dk",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "cors-anywhere": "^0.4.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "jade": "^1.11.0",
+    "json-parser": "^3.1.2",
+    "jsontokens": "^3.1.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.2.6",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.16"
+  }
+}

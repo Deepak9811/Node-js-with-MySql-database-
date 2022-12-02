@@ -1,7 +1,7 @@
 var mysql = require("mysql");
 
 
-/**
+/**/
 const host = "localhost";
 const user = "root";
 const pass = "Deepk&123";

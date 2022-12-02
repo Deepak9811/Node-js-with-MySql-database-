@@ -6,7 +6,7 @@ var logger = require("morgan");
 var cors = require("cors");
 // const assert = require("assert");
 const bodyParser = require("body-parser");
-// var jsonparser = bodyParser.json();
+var jsonparser = bodyParser.json();
 var mysql = require("mysql");
 
 const fetch = (...args) =>
